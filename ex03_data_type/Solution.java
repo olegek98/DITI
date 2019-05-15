@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        int i = 4;
-        double d = 4.0;
-        String s = "DITI ";
-
         Scanner scan = new Scanner(System.in);
 
         /* Объявите для каждого типа: целочисленный, с плавающей точкой двойной точности, строка - вторую переменную. */
