@@ -28,7 +28,7 @@ public class Solution {
 
     //Метод, который выводит на экран итоговую сумму, округленную в сторону ближайшего целого
     static void solve(double meal_cost, int tip_percent, int tax_percent) {
-        sum=Math.round(meal_cost*(double)(100 + tip_percent + tax_percent)/100)
+        sum=Math.round(meal_cost*((double)(100 + tip_percent + tax_percent)/100))
         System.out.println(sum);
     }
 }
