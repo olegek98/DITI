@@ -51,8 +51,7 @@ public class Solution {
                 result = temp;
         }
         return result;
-        throw new UnsupportedOperationException();
-    }
+            }
 
     private static final Scanner scanner = new Scanner(System.in);
 
