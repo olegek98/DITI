@@ -22,10 +22,9 @@ public class Solution {
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
         //TODO: код здесь
-        for(int i=1;i != 11;i++)
+        for(int i=1;i<11;i++)
         {
-            int multi = n*i;
-            System.out.println(multi);
+          System.out.println(n*i);
         }
         scanner.close();
     }
