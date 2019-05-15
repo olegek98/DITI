@@ -18,7 +18,7 @@ public class Solution {
             int n = in.nextInt();
             int Sum = 0;
             for (int i = 1; i <= n; i++) {
-                if (Sum % 3 == 0 && Sum % 5 == 0) {
+                if (Sum % 3 == 0 || Sum % 5 == 0) {
                     Sum = Sum + i;
                 }
 
